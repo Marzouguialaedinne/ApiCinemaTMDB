@@ -1,0 +1,25 @@
+# 🐘 TMBD Symfony 5 Test Technique  🐘
+
+== Installation
+
+1. Assurez-vous que le port `7777` est libre sur votre hôte et que vous avez évidemment docker.
+
+2. Copiez le `.env.local.dist` au même emplacement que `.env.local`
+
+3. Obtenez une clé API à partir de votre compte TMDB https://www.themoviedb.org et définissez la variable `TMDB_API_KEY` dans `.env.local`
+
+4. Ensuite, exécutez les commandes suivantes:
+
+    docker-compose up -d
+    docker-compose exec application composer install
+    docker-compose exec application yarn install
+    docker-compose exec application yarn build
+
+5. Ouvrir http://localhost:7777/ pour accéder
+
+== Notes
+    - ce projet utilise Symfony5 , VueJs , Docker.
+    - les films sont ordonnés par le vote.
+    - pour voir la bande annonce (si elle existe) de chaque film il faut cliquer sur le boutton lire le détail.
+
+

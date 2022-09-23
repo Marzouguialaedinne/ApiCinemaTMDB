@@ -1,0 +1,20 @@
+nav.title: 'Genres'
+
+home.title: Bienvenue
+home.welcome: |
+                TMBD Movies API
+home.explanations: |
+    Vous pouvez parcourir les catégories situées sur la gauche de l'écran pour voir les films disponibles 
+
+genre.title: 'Catégorie: {genre_name}'
+genre.tmdb_button: Voir sur TMDB
+genre.details_button: Lire le détails
+genre.details.original_language: 'Code Langage :'
+genre.details.original_title: 'Titre original :'
+genre.details.release_date: 'Date de sortie :'
+genre.details.vote_count: 'Nombre de vote :'
+genre.details.vote_average: 'Note moyenne :'
+
+movie.search: Rechercher un film
+movie.details.no_video: Malheureusement, aucune vidéo n'est disponible pour ce film
+modal.close: 'Fermer'

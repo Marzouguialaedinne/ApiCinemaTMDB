@@ -1,0 +1,13 @@
+{% extends 'vuejs_base.html.twig' %}
+
+{% block page_title %}{{ 'genre.title'|trans({'genre_name': currentGenre.name}) }}{% endblock %}
+{% block title %}{{ currentGenre.name }}{% endblock %}
+
+{% block template %}
+    <GenreShow
+        :current-genre="{
+            id: {{ currentGenre.id }},
+            name: '{{ currentGenre.name }}'
+        }"
+    />
+{% endblock %}

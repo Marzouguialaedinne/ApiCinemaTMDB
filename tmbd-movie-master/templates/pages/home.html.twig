@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block page_title %}{{ 'home.title'|trans }}{% endblock %}
+{% block title %}{{ 'home.title'|trans }}{% endblock %}
+
+{% block body %}
+    {% include 'partials/start_vuejs.html.twig' with {template: '<Home />'} %}
+{% endblock %}

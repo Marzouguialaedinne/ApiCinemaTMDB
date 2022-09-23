@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>{% block page_title %}{% endblock %} - TMBD API</title>
+
+        <!-- Stylesheets -->
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('style') }}
+        {% endblock %}
+
+        <!-- Javascript scripts -->
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+            {% include 'partials/translations_bridge.html.twig' %}
+        {% endblock %}
+    </head>
+    <body class="bg-gray-100 text-gray-900 tracking-wider leading-normal">
+        {% block body %}{% endblock %}
+    </body>
+</html>

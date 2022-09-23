@@ -1,0 +1,42 @@
+{
+    "devDependencies": {
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "autoprefixer": "^10.4.0",
+        "core-js": "^3.0.0",
+        "glob-all": "^3.2.1",
+        "install": "^0.13.0",
+        "npm": "^8.1.4",
+        "path": "^0.12.7",
+        "regenerator-runtime": "^0.13.2",
+        "stimulus": "^2.0.0",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "add": "^2.0.6",
+        "axios": "^0.24.0",
+        "lodash": "^4.17.21",
+        "material-design-icons": "^3.0.1",
+        "moment": "^2.29.1",
+        "postcss-loader": "^6.2.0",
+        "purgecss-webpack-plugin": "^4.0.3",
+        "sass": "^1.43.4",
+        "sass-loader": "^12.3.0",
+        "tailwindcss": "^2.2.19",
+        "vue": "^2.6.14",
+        "vue-lazytube": "^1.1.1",
+        "vue-loader": "^15.9.8",
+        "vue-simple-search-dropdown": "^1.0.1",
+        "vue-sliding-pagination": "^1.3.2",
+        "vue-template-compiler": "^2.6.14",
+        "vue-trans": "^0.1.1"
+    }
+}
